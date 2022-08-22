@@ -4,4 +4,4 @@ const greating = () => {
   const userName = readLineSync.question('May I have your name? ');
   return console.log(`Hello, ${userName}!`);
 };
-export { greating };
+export default greating;
