@@ -18,7 +18,8 @@ function gameGsd() {
   const questions = Array.from(Array(questionsAmount)).map(() => `${Math.floor(Math.random() * 100)} ${Math.floor(Math.random() * 100)}`);
   const answers = questions.map((item) => findGcd(item));
   const userName = greating();
-  const rule = console.log('Find the greatest common divisor of given numbers.');
+  const rule = 'Find the greatest common divisor of given numbers.';
+  console.log(rule);
   return quiz(questions, answers, userName);
 }
-export { gameGsd };
+export default gameGsd;

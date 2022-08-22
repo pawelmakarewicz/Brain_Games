@@ -21,7 +21,8 @@ function gameCalc() {
   const questions = Array.from(Array(questionsAmount)).map(() => `${Math.floor(Math.random() * 20)} ${operations[Math.floor(Math.random() * 3)]} ${Math.floor(Math.random() * 20)}`);
   const answers = questions.map((item) => calc(item));
   const userName = greating();
-  const rule = console.log('What is the result of the expression?');
+  const rule = 'What is the result of the expression?';
+  console.log(rule);
   return quiz(questions, answers, userName);
 }
-export { gameCalc };
+export default gameCalc;

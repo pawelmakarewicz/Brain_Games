@@ -21,8 +21,9 @@ function gameProgression() {
   const questions = questionsAndAnswers.slice().map((item, index, array) => array[index][0]);
   const answers = questionsAndAnswers.slice().map((item, index, array) => array[index][1]);
   const userName = greating();
-  const rule = console.log('What number is missing in the progression?');
+  const rule = 'What number is missing in the progression?';
+  console.log(rule);
   return quiz(questions, answers, userName);
 }
 
-export { gameProgression };
+export default gameProgression;

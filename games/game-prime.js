@@ -24,4 +24,4 @@ function gamePrime() {
   return quiz(questions, answers, userName);
 }
 
-export { gamePrime };
+export default gamePrime;
