@@ -8,7 +8,7 @@ function arrGenerator() {
     arr.push(arr[i] + progressionNumber);
   }
   const hiddenPosition = Math.floor(Math.random() * (itemNumber - 1));
-  const answer = arr[hiddenPosition].toString();
+  const answer = arr[hiddenPosition];
   const elementHide = '..';
   arr[hiddenPosition] = elementHide;
   const question = arr.join(' ');
