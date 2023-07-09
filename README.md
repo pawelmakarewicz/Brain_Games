@@ -7,7 +7,7 @@
 - Determining the greatest common divisor
 - Determining a prime number
 
-## Examples :
+### Examples :
 
 brain-even (https://asciinema.org/a/mPVDGpA0Z8T4wWSYFrshz35Om)   
 brain-calc (https://asciinema.org/a/34eXJ9rg9x1Cx2UTzAEdjbhbG)   
